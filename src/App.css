@@ -1,0 +1,62 @@
+html{
+ background-color: #334455;
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  padding-bottom: 40px;
+}
+
+.root {
+  margin-top: 0;
+}
+
+
+p {
+  font-size: 2em;
+}
+
+.container {
+  width: 100%;
+  margin-top: 60px;
+}
+
+button {
+  height: 40px;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.btn-primary {
+  font-size: 1.4em;
+}
+
+.col-sm-12 {
+  font-size: 1.6em;
+  color: #336699;
+  padding-top: 40px;
+}
+
+.player {
+  font-size: 1.8em;
+  color: #336699;
+  margin-bottom: 20px;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #4AB6E4;
+}
+
+img {
+  width: 100%;
+}
+
+.col-sm-4 >div > p {
+  text-align: center;
+}
