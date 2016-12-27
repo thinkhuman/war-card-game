@@ -2,11 +2,12 @@
   "name": "war-card-game",
   "version": "0.1.0",
   "private": true,
-  "author":"James Gill",
+  "author": "James Gill",
   "main": "index.js",
   "devDependencies": {
     "enzyme": "^2.7.0",
     "expect": "^1.20.2",
+    "gh-pages": "^0.12.0",
     "ignore-styles": "^5.0.1",
     "jsdom": "^9.9.1",
     "mocha": "^3.2.0",
@@ -27,6 +28,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "mocha --require ignore-styles --compilers js:babel-core/register src/App.test.js",
-    "eject": "react-scripts eject"
-  }
+    "eject": "react-scripts eject",
+    "deploy" : "npm run build&&gh-pages -d build"
+  },
+  "homepage": "https://thinkhuman.github.io/war-card-game/"
 }

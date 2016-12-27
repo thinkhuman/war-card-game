@@ -4,7 +4,7 @@ The classic card game War, played in the browser.
 
 ## Quick Start
 
-The fully built War application is available in the `dist` folder. Just double-click the index.html to open it in your browser.
+The fully built War application is available at [https://thinkhuman.github.io/war-card-game/](https://thinkhuman.github.io/war-card-game/).
 
 ## Usage
 
